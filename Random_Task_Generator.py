@@ -5,7 +5,7 @@ import json
 import os
 from datetime import datetime
 
-data_file = Random_Task_Generator.json
+data_file = "Random_Task_Generator.json"
 class RandomTaskGenerator:
     def __init__(self, root):
         self.root = root
